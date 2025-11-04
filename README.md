@@ -15,8 +15,6 @@ It includes:
 ├── style.css # Custom CSS file for styling
 └── README.md # Documentation file
 
-yaml
-Copy code
 
 ---
 
