@@ -1,0 +1,72 @@
+/* 🌈 General Styles */
+body {
+  background-color: #f9fafb;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧭 Header */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* 📦 Section Titles */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* 💳 Bulma Card Customization */
+.custom-card {
+  max-width: 420px;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* 🧱 Bootstrap Grid Cards */
+.custom-grid-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-grid-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* 🦶 Footer */
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+footer strong {
+  color: #ffd700;
+}
